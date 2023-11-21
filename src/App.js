@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Timer from './Timer';
 
-function App(){
-  return<Greeting name="Peter"/>
-}
-function Greeting(props){
-  return(
-<div>Hello,{props.name}!Nice to meet you</div>
-  )
-}
+const App = () => {
+  return (
+    <div>
+      <center><Timer initialSeconds={0}/>
+      </center>
+    </div>
+  );
+};
 
-export default App
+export default App;

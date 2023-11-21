@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import app2 from './app2';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
-import imgurl from "./login/images/puma.avif"
-import Parent from './Parent';
-import ClassComponent from './ClassComponent';
-import Login from "./login/Login"
+import Timer from './Timer';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login/>
+    <App/>
   </React.StrictMode>
 );
 
